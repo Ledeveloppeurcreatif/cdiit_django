@@ -19,6 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # Include URLs from the backend app
     path('', include('backend.urls')),  
 ]
